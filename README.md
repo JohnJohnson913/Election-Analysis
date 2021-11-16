@@ -14,7 +14,9 @@ Election Audit Results
 Across the voting district the total votes cast were 369,711.  We obtained this count by initializing a total vote counter and including this into a for loop to calculate the total votes cast.  It was then placed to print to the terminal and text file.  Images of the code included below:
 
 https://github.com/JohnJohnson913/Election-Analysis/blob/09c6ea6fae6ee0de4bd553483857c1b86fc8d051/Resources/Total_Votes_Print.png
+
 https://github.com/JohnJohnson913/Election-Analysis/blob/09c6ea6fae6ee0de4bd553483857c1b86fc8d051/Resources/Total_Votes_Variable.png
+
 https://github.com/JohnJohnson913/Election-Analysis/blob/09c6ea6fae6ee0de4bd553483857c1b86fc8d051/Resources/Total_Votes_in_For_Loop.png
 
 * Breakdown for the number of votes and the percentage of total votes for each county in the precinct:
@@ -42,5 +44,6 @@ This script offers variability in many ways, two of which would be:
 The ability to modify the script to account for additional or different counties by directing the script to identify candidates and vote counts.  The script could be modified to account for different counties by pointing the file to load to a different CSV file on the system.  In much the same way, teh script could be modified to index other lists of candidates for the new/added counties and ran to gather the same information for the different election.  The core code would remainly only slighty modified allowing for easy debugging if needed.  Finally, it could be modified to account for a different output location as well by modifying the save path.
 
 Changing file to path image:  https://github.com/JohnJohnson913/Election-Analysis/blob/09c6ea6fae6ee0de4bd553483857c1b86fc8d051/Resources/File_to_Path.png
+
 Changing save to path image:  https://github.com/JohnJohnson913/Election-Analysis/blob/09c6ea6fae6ee0de4bd553483857c1b86fc8d051/Resources/Path_to_Save.png
 
