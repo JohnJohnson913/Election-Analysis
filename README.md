@@ -1,13 +1,14 @@
 # Election-Analysis
 
-Overview of the Election Audit
+**Overview of the Election Audit**
+
 After recently assisting Tom and Seth with the election analysis, the election commission has asked for additional anlysis to be completed.  The current request is to supply three different items:
 
 1. Voter turnout for each county
 2. The percentage of votes from each county out of the total count
 3. The county with the highest turnout
 
-Election Audit Results
+**Election Audit Results**
 
 * How many votes were cast in the congressional election?
 
@@ -37,7 +38,7 @@ Raymon Anthony Doane received 11,606 votes, accounting for 3.1% of total votes c
 
 This gives Diana Dagette a commanding lead in the election with 73.8% or 272,892 votes of the 369,711 total votes cast.  
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+**Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.**
 
 This script offers variability in many ways, two of which would be:
 
@@ -46,4 +47,3 @@ The ability to modify the script to account for additional or different counties
 Changing file to path image:  https://github.com/JohnJohnson913/Election-Analysis/blob/09c6ea6fae6ee0de4bd553483857c1b86fc8d051/Resources/File_to_Path.png
 
 Changing save to path image:  https://github.com/JohnJohnson913/Election-Analysis/blob/09c6ea6fae6ee0de4bd553483857c1b86fc8d051/Resources/Path_to_Save.png
-
