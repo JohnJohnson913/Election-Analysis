@@ -98,24 +98,31 @@ with open(file_to_save, "w") as txt_file:
 
     for county in county_votes:
 
-        # 6b: Retrieve the county vote count.
+         # 6b: Retrieve the county vote count.
         county_votes_count = county_votes[county]
 
         # 6c: Calculate the percentage of votes for the county.
-        county_vote_percentage = (float(county_votes_count)) / (float(county_votes)) * 100 
-   
+        
+        jefferson_county_vote_percentage = float(county_votes_count) / float(total_votes) * 100 
+        denver_county_vote_percentage = float(county_votes_count) / float(total_votes) * 100
+        arapahoe_county_vote_percentage = float(county_votes_count) / float(total_votes) * 100
+        county_vote_percentage = float(county_votes_count) / float(total_votes) * 100
+
+                     
          # 6d: Print the county results to the terminal.
         county_votes_result = f"{county_votes},{county_vote_percentage},{county_votes_count}"
          
-        print(county_votes_result)
+        # 6e: Save the county votes to a text file.
 
-         # 6e: Save the county votes to a text file.
+        txt_file.write(election_results)
+        txt_file.write(county_votes_result)
 
-        txt_file.os.write(county_votes_result)
+        print(county_votes)
 
+        print(large_county_name)
          # 6f: Write an if statement to determine the winning county and get its vote count.
 
-        if (county_votes > large_county_vote) and (county_vote_percentage > large_county_vote_percentage):# True
+        if (county_votes > large_county_vote) and (county_vote_percentage) > (large_county_vote_percentage):#True
             large_county_turnout_count = county_votes
             large_county_vote_percentage = county_vote_percentage
             large_county_name = county
